@@ -1,4 +1,4 @@
-
+/// <reference types="Cypress" />
 const datos = require('/Users/leonardo/Proyectos VS Code/Cypres/Test_cypress_crux_web/arrayData.json')
 
 
@@ -14,9 +14,12 @@ describe('test login', () => {
         cy.get('#password').type(test.passwoord)
         cy.get('.btn').click()
         cy.wait(3000)
+        
         })
     })
-    it('test de credenciales correctas y cierre de sesion',()=>{
+    it.only('test de credenciales correctas y cierre de sesion',()=>{
+        //?prueba de la funcion intercept
+        cy.intercept('http://64.225.82.59:8080/login')
         //?correo usuario
         cy.get('#name').type('rhuilcaleo@helpcom.cl')
         //?contraseña usuario
