@@ -3,3 +3,12 @@
 comando para paralelizacion
 
 cypress run --record --key=463cad54-db42-4988-b5fc-4336947ba290 --parallel
+
+
+    codigo para utilizar en login con datos random
+    datos.forEach(test => {
+        it('test de credenciales incorrectas',()=>{
+        cy.get('#name').type(test.email)
+        cy.get('#password').type(test.passwoord)
+        cy.get('.btn').click()
+        cy.wait(3000)

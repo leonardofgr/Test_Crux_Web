@@ -1,23 +1,10 @@
 /// <reference types="Cypress" />
-const datos = require('Test_cypress_crux_web/arrayData.json')
 
 
 describe('test login', () => {
     
-    beforeEach(()=>{
+    it('test de credenciales correctas y cierre de sesion',()=>{
         cy.visit('http://64.225.82.59:8080/login')
-
-    })
-    datos.forEach(test => {
-        it('test de credenciales incorrectas',()=>{
-        cy.get('#name').type(test.email)
-        cy.get('#password').type(test.passwoord)
-        cy.get('.btn').click()
-        cy.wait(3000)
-        
-        })
-    })
-    it.only('test de credenciales correctas y cierre de sesion',()=>{
         //?prueba de la funcion intercept
         cy.intercept('http://64.225.82.59:8080/login')
         //?correo usuario
