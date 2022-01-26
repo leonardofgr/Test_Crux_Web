@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-const datos = require('/Users/leonardo/Proyectos VS Code/Cypres/Test_cypress_crux_web/arrayData.json')
+const datos = require('Test_cypress_crux_web/arrayData.json')
 
 
 describe('test login', () => {
