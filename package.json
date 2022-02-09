@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
-    "start": "npm start"
+    "start": "npx cypress run --spec cypress/integration/LoginTest.js"
   },
   "author": "",
   "license": "ISC",
