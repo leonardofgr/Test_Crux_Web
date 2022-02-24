@@ -1,6 +1,14 @@
 {
     "projectId": "m1hu4j",
     "videosFolder":"cypress/videos",
-    "videoUploadOnPasses":true
-
+    "videoUploadOnPasses":true,
+    "pageLoadTimeout":80000,
+    "reporter": "mocha-allure-reporter",
+    "reporterOptions": {
+        "allureResultsPath":"cypress/reports",
+        "overwrite":false,
+        "html":false,
+        "json":true
+    }
 }
+
