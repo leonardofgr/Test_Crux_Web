@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.",
+      "children" : [ {
+        "name" : "test de credenciales correctas y cierre de sesion",
+        "uid" : "6611675e209c92af",
+        "parentUid" : "f7ae78f16a6d5220a108212b53101b9d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645737780256,
+          "stop" : 1645737824235,
+          "duration" : 43979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test de credenciales correctas y cierre de sesion",
+        "uid" : "963f4b3921324f73",
+        "parentUid" : "f7ae78f16a6d5220a108212b53101b9d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645737782601,
+          "stop" : 1645737824232,
+          "duration" : 41631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7ae78f16a6d5220a108212b53101b9d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

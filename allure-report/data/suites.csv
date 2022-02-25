@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Feb 24 18:23:54 CLST 2022","Thu Feb 24 18:23:55 CLST 2022","659","","test de respuesta y status","","test de respuesta y status","cy.request() - test request 200","cy.request() - test request 200",""
+"failed","Thu Feb 24 18:23:00 CLST 2022","Thu Feb 24 18:23:44 CLST 2022","43979","","test login","","test login","test de credenciales correctas y cierre de sesion","test de credenciales correctas y cierre de sesion",""
+"failed","Thu Feb 24 18:23:02 CLST 2022","Thu Feb 24 18:23:44 CLST 2022","41631","","test login","","","","test de credenciales correctas y cierre de sesion",""
+"passed","Thu Feb 24 18:23:54 CLST 2022","Thu Feb 24 18:23:55 CLST 2022","630","","test de respuesta y status","","","","cy.request() - test request 200",""

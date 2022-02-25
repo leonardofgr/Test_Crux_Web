@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645737834960' stop='1645737835619'>
+    <name>test de respuesta y status</name>
+    <title>test de respuesta y status</title>
+    <test-cases>
+        <test-case start='1645737834960' status='passed' stop='1645737835619'>
+            <name>cy.request() - test request 200</name>
+            <title>cy.request() - test request 200</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

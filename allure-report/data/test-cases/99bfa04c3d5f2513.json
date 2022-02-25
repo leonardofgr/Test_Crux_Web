@@ -1,0 +1,50 @@
+{
+  "uid" : "99bfa04c3d5f2513",
+  "name" : "cy.request() - test request 200",
+  "fullName" : "test de respuesta y status.cy.request() - test request 200",
+  "historyId" : "9787766fa690ba14d43a516ca105ccff",
+  "time" : {
+    "start" : 1645737834960,
+    "stop" : 1645737835619,
+    "duration" : 659
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test de respuesta y status"
+  }, {
+    "name" : "testClass",
+    "value" : "test de respuesta y status"
+  }, {
+    "name" : "testMethod",
+    "value" : "cy.request() - test request 200"
+  }, {
+    "name" : "package",
+    "value" : "test de respuesta y status"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99bfa04c3d5f2513.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test login",
+    "children" : [ {
+      "name" : "test de credenciales correctas y cierre de sesion",
+      "uid" : "6611675e209c92af",
+      "parentUid" : "89cc0f7864b4106b6c13bf17fe294f66",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645737780256,
+        "stop" : 1645737824235,
+        "duration" : 43979
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "89cc0f7864b4106b6c13bf17fe294f66"
+  }, {
+    "name" : "test de credenciales correctas y cierre de sesion",
+    "uid" : "963f4b3921324f73",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "failed",
+    "time" : {
+      "start" : 1645737782601,
+      "stop" : 1645737824232,
+      "duration" : 41631
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.request() - test request 200",
+    "uid" : "36d0d67dc67201e5",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645737834924,
+      "stop" : 1645737835554,
+      "duration" : 630
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test de respuesta y status",
+    "children" : [ {
+      "name" : "cy.request() - test request 200",
+      "uid" : "99bfa04c3d5f2513",
+      "parentUid" : "42d222d2d26a435b219fb3bae5f10027",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645737834960,
+        "stop" : 1645737835619,
+        "duration" : 659
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "42d222d2d26a435b219fb3bae5f10027"
+  } ]
+}

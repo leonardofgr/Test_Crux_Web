@@ -1,0 +1,80 @@
+{
+  "9787766fa690ba14d43a516ca105ccff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99bfa04c3d5f2513",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645737834960,
+        "stop" : 1645737835619,
+        "duration" : 659
+      }
+    } ]
+  },
+  "241af950192685d95b155991f6ee48e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36d0d67dc67201e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645737834924,
+        "stop" : 1645737835554,
+        "duration" : 630
+      }
+    } ]
+  },
+  "13527f0eeecdff8a842363f8ea8f35c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "963f4b3921324f73",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.",
+      "time" : {
+        "start" : 1645737782601,
+        "stop" : 1645737824232,
+        "duration" : 41631
+      }
+    } ]
+  },
+  "7dba76768d7cfbf355aeeaaf3a535b4d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6611675e209c92af",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.",
+      "time" : {
+        "start" : 1645737780256,
+        "stop" : 1645737824235,
+        "duration" : 43979
+      }
+    } ]
+  }
+}
