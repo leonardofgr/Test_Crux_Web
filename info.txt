@@ -12,3 +12,35 @@ cypress run --record --key=463cad54-db42-4988-b5fc-4336947ba290 --parallel
         cy.get('#password').type(test.passwoord)
         cy.get('.btn').click()
         cy.wait(3000)
+
+
+comando para instalar allure reporter
+
+npm i --save  @shelex/cypress-allure-plugin allure-commandline
+
+npm i --save-dev mocha-allure-reporter allure-commandline
+
+Opcion para correr test con navegador especifico
+npx cypress run --browser chrome --env allure=true
+
+npx cypress run --browser chrome --env allure=true,allureResultsPath=cypress/reports
+
+
+Nota. una vez que allure genera los resultados, se debe indicar que genere los reportes html con el siguiente comando
+
+#allure generate
+ 
+despues se puede indicar que el reporte generado se abra con un server local con el siguiente comando
+
+#allure open
+
+opcion para sobreescribir el ultimo reporte y asi generar nuevos resultados del ultimo test ejecutado
+#allure generate allure-result --clean
+
+
+comando para git hub actions
+
+ npx cypress run --spec cypress/integration/LoginTest.js --record --key 463cad54-db42-4988-b5fc-4336947ba290
+
+
+ 
