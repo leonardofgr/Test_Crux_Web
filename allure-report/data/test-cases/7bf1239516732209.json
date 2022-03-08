@@ -1,0 +1,66 @@
+{
+  "uid" : "7bf1239516732209",
+  "name" : "Navegacion dentro del menu compras/marcas",
+  "fullName" : "Prueba en http://64.225.82.59:8080/marcas.Navegacion dentro del menu compras/marcas",
+  "historyId" : "4869d8dc72dc099d3c47f5fbd8a515e4",
+  "time" : {
+    "start" : 1646773015854,
+    "stop" : 1646773056201,
+    "duration" : 40347
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Prueba en http://64.225.82.59:8080/marcas"
+  }, {
+    "name" : "testClass",
+    "value" : "Prueba en http://64.225.82.59:8080/marcas"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navegacion dentro del menu compras/marcas"
+  }, {
+    "name" : "package",
+    "value" : "Prueba en http://64.225.82.59:8080/marcas"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eccbf16a2e5a3fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646772591734,
+        "stop" : 1646772635436,
+        "duration" : 43702
+      }
+    }, {
+      "uid" : "1eb26a11704a0cc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646770652115,
+        "stop" : 1646770705414,
+        "duration" : 53299
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7bf1239516732209.json",
+  "parameterValues" : [ ]
+}

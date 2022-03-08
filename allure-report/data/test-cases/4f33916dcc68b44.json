@@ -1,0 +1,94 @@
+{
+  "uid" : "4f33916dcc68b44",
+  "name" : "test de credenciales correctas y cierre de sesion",
+  "fullName" : "test login.test de credenciales correctas y cierre de sesion",
+  "historyId" : "7dba76768d7cfbf355aeeaaf3a535b4d",
+  "time" : {
+    "start" : 1646772839551,
+    "stop" : 1646772877635,
+    "duration" : 38084
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test login"
+  }, {
+    "name" : "testClass",
+    "value" : "test login"
+  }, {
+    "name" : "testMethod",
+    "value" : "test de credenciales correctas y cierre de sesion"
+  }, {
+    "name" : "package",
+    "value" : "test login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "39916ec5c093f87f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646772420978,
+        "stop" : 1646772462159,
+        "duration" : 41181
+      }
+    }, {
+      "uid" : "2d778db422d8517",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.",
+      "time" : {
+        "start" : 1646770471741,
+        "stop" : 1646770514708,
+        "duration" : 42967
+      }
+    }, {
+      "uid" : "d53d747501770459",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.",
+      "time" : {
+        "start" : 1646248463816,
+        "stop" : 1646248501630,
+        "duration" : 37814
+      }
+    }, {
+      "uid" : "169908d53547c4ce",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.",
+      "time" : {
+        "start" : 1645818862595,
+        "stop" : 1645818907091,
+        "duration" : 44496
+      }
+    }, {
+      "uid" : "df1e42ae1ea55579",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.",
+      "time" : {
+        "start" : 1645737780256,
+        "stop" : 1645737824235,
+        "duration" : 43979
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f33916dcc68b44.json",
+  "parameterValues" : [ ]
+}

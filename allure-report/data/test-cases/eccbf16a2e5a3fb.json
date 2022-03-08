@@ -1,0 +1,48 @@
+{
+  "uid" : "eccbf16a2e5a3fb",
+  "name" : "Navegacion dentro del menu compras/marcas",
+  "fullName" : "Prueba en http://64.225.82.59:8080/marcas.Navegacion dentro del menu compras/marcas",
+  "historyId" : "4869d8dc72dc099d3c47f5fbd8a515e4",
+  "time" : {
+    "start" : 1646772591734,
+    "stop" : 1646772635436,
+    "duration" : 43702
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Prueba en http://64.225.82.59:8080/marcas"
+  }, {
+    "name" : "testClass",
+    "value" : "Prueba en http://64.225.82.59:8080/marcas"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navegacion dentro del menu compras/marcas"
+  }, {
+    "name" : "package",
+    "value" : "Prueba en http://64.225.82.59:8080/marcas"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eccbf16a2e5a3fb.json",
+  "parameterValues" : [ ]
+}

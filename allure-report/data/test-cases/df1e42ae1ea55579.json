@@ -1,0 +1,50 @@
+{
+  "uid" : "df1e42ae1ea55579",
+  "name" : "test de credenciales correctas y cierre de sesion",
+  "fullName" : "test login.test de credenciales correctas y cierre de sesion",
+  "historyId" : "7dba76768d7cfbf355aeeaaf3a535b4d",
+  "time" : {
+    "start" : 1645737780256,
+    "stop" : 1645737824235,
+    "duration" : 43979
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.\n                    at Context.eval (http://64.225.82.59:8080/__cypress/tests?p=cypress/integration/LoginTest.js:118:48)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test login"
+  }, {
+    "name" : "testClass",
+    "value" : "test login"
+  }, {
+    "name" : "testMethod",
+    "value" : "test de credenciales correctas y cierre de sesion"
+  }, {
+    "name" : "package",
+    "value" : "test login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df1e42ae1ea55579.json",
+  "parameterValues" : [ ]
+}

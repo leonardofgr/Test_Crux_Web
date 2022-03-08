@@ -1,0 +1,74 @@
+{
+  "uid" : "c260dd298fb06ef6",
+  "name" : "Navegacion dentro del menu compras/departamentos",
+  "fullName" : "Prueba en http://64.225.82.59:8080/departamentos.Navegacion dentro del menu compras/departamentos",
+  "historyId" : "af400000abd87e76bfd9419221143077",
+  "time" : {
+    "start" : 1646772892679,
+    "stop" : 1646772936645,
+    "duration" : 43966
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Prueba en http://64.225.82.59:8080/departamentos"
+  }, {
+    "name" : "testClass",
+    "value" : "Prueba en http://64.225.82.59:8080/departamentos"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navegacion dentro del menu compras/departamentos"
+  }, {
+    "name" : "package",
+    "value" : "Prueba en http://64.225.82.59:8080/departamentos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb4a4a2468247d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646772476577,
+        "stop" : 1646772517181,
+        "duration" : 40604
+      }
+    }, {
+      "uid" : "e97b723fb025bcfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646770529138,
+        "stop" : 1646770574589,
+        "duration" : 45451
+      }
+    }, {
+      "uid" : "551f2b480d20e62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646248519625,
+        "stop" : 1646248557121,
+        "duration" : 37496
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c260dd298fb06ef6.json",
+  "parameterValues" : [ ]
+}

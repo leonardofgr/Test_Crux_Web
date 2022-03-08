@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646772476577' stop='1646772517181'>
+    <name>Prueba en http://64.225.82.59:8080/departamentos</name>
+    <title>Prueba en http://64.225.82.59:8080/departamentos</title>
+    <test-cases>
+        <test-case start='1646772476577' status='passed' stop='1646772517181'>
+            <name>Navegacion dentro del menu compras/departamentos</name>
+            <title>Navegacion dentro del menu compras/departamentos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,50 @@
+{
+  "uid" : "c71d02caa9cd5fce",
+  "name" : "CRUD",
+  "fullName" : "Prueba en http://64.225.82.59:8080/departamentos.CRUD",
+  "historyId" : "46dbff3e0c09ce0d495e55fdb6d46f1a",
+  "time" : {
+    "start" : 1646248557135,
+    "stop" : 1646248557950,
+    "duration" : 815
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Prueba en http://64.225.82.59:8080/departamentos"
+  }, {
+    "name" : "testClass",
+    "value" : "Prueba en http://64.225.82.59:8080/departamentos"
+  }, {
+    "name" : "testMethod",
+    "value" : "CRUD"
+  }, {
+    "name" : "package",
+    "value" : "Prueba en http://64.225.82.59:8080/departamentos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c71d02caa9cd5fce.json",
+  "parameterValues" : [ ]
+}

@@ -2,48 +2,48 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "test de credenciales correctas y cierre de sesion",
-    "uid" : "6611675e209c92af",
+    "name" : "cy.request() - test request 200",
+    "uid" : "590c2c5390382c6b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1645737780256,
-      "stop" : 1645737824235,
-      "duration" : 43979
+      "start" : 1646248511767,
+      "stop" : 1646248512431,
+      "duration" : 664
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test de credenciales correctas y cierre de sesion",
-    "uid" : "963f4b3921324f73",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1645737782601,
-      "stop" : 1645737824232,
-      "duration" : 41631
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "cy.request() - test request 200",
-    "uid" : "36d0d67dc67201e5",
+    "uid" : "68927f1095d5150c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1645737834924,
-      "stop" : 1645737835554,
-      "duration" : 630
+      "start" : 1646248511802,
+      "stop" : 1646248512566,
+      "duration" : 764
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "CRUD",
+    "uid" : "200f7521de12d8e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646248557122,
+      "stop" : 1646248557937,
+      "duration" : 815
     },
     "flaky" : false,
     "newFailed" : false,
@@ -53,14 +53,184 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "cy.request() - test request 200",
-    "uid" : "99bfa04c3d5f2513",
+    "name" : "CRUD",
+    "uid" : "c71d02caa9cd5fce",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1645737834960,
-      "stop" : 1645737835619,
-      "duration" : 659
+      "start" : 1646248557135,
+      "stop" : 1646248557950,
+      "duration" : 815
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "make an XHR request",
+    "uid" : "7d70bb305fd61829",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646772827508,
+      "stop" : 1646772828756,
+      "duration" : 1248
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "make an XHR request",
+    "uid" : "5654738678198f7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646772827553,
+      "stop" : 1646772829020,
+      "duration" : 1467
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test de credenciales correctas y cierre de sesion",
+    "uid" : "4f33916dcc68b44",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646772839551,
+      "stop" : 1646772877635,
+      "duration" : 38084
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test de credenciales correctas y cierre de sesion",
+    "uid" : "3c6f44dd86a392f8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646772841719,
+      "stop" : 1646772877604,
+      "duration" : 35885
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navegacion dentro del menu compras/departamentos",
+    "uid" : "c260dd298fb06ef6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646772892679,
+      "stop" : 1646772936645,
+      "duration" : 43966
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navegacion dentro del menu compras/departamentos",
+    "uid" : "518222f553a14e07",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646772895097,
+      "stop" : 1646772936608,
+      "duration" : 41511
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navegacion dentro del menu compras/linea de productos",
+    "uid" : "48202c44b9495e69",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646772952255,
+      "stop" : 1646773000159,
+      "duration" : 47904
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navegacion dentro del menu compras/linea de productos",
+    "uid" : "2a50ee223038de4a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646772954489,
+      "stop" : 1646773000125,
+      "duration" : 45636
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navegacion dentro del menu compras/marcas",
+    "uid" : "7bf1239516732209",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646773015854,
+      "stop" : 1646773056201,
+      "duration" : 40347
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Navegacion dentro del menu compras/marcas",
+    "uid" : "ef6871b402c1a1da",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646773017982,
+      "stop" : 1646773056168,
+      "duration" : 38186
     },
     "flaky" : false,
     "newFailed" : false,

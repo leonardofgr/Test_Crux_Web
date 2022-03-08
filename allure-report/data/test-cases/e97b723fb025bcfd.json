@@ -1,0 +1,48 @@
+{
+  "uid" : "e97b723fb025bcfd",
+  "name" : "Navegacion dentro del menu compras/departamentos",
+  "fullName" : "Prueba en http://64.225.82.59:8080/departamentos.Navegacion dentro del menu compras/departamentos",
+  "historyId" : "af400000abd87e76bfd9419221143077",
+  "time" : {
+    "start" : 1646770529138,
+    "stop" : 1646770574589,
+    "duration" : 45451
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Prueba en http://64.225.82.59:8080/departamentos"
+  }, {
+    "name" : "testClass",
+    "value" : "Prueba en http://64.225.82.59:8080/departamentos"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navegacion dentro del menu compras/departamentos"
+  }, {
+    "name" : "package",
+    "value" : "Prueba en http://64.225.82.59:8080/departamentos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e97b723fb025bcfd.json",
+  "parameterValues" : [ ]
+}

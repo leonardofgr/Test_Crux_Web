@@ -1,0 +1,66 @@
+{
+  "uid" : "48202c44b9495e69",
+  "name" : "Navegacion dentro del menu compras/linea de productos",
+  "fullName" : "Prueba en http://64.225.82.59:8080/linea_productos.Navegacion dentro del menu compras/linea de productos",
+  "historyId" : "6b3af4d6430ab5c58ea0e160d37b96d",
+  "time" : {
+    "start" : 1646772952255,
+    "stop" : 1646773000159,
+    "duration" : 47904
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Prueba en http://64.225.82.59:8080/linea_productos"
+  }, {
+    "name" : "testClass",
+    "value" : "Prueba en http://64.225.82.59:8080/linea_productos"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navegacion dentro del menu compras/linea de productos"
+  }, {
+    "name" : "package",
+    "value" : "Prueba en http://64.225.82.59:8080/linea_productos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e3aa8089a0a951fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646772531977,
+        "stop" : 1646772577208,
+        "duration" : 45231
+      }
+    }, {
+      "uid" : "133a37fe7875a99d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646770589412,
+        "stop" : 1646770637206,
+        "duration" : 47794
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48202c44b9495e69.json",
+  "parameterValues" : [ ]
+}

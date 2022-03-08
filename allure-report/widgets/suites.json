@@ -1,19 +1,63 @@
 {
-  "total" : 2,
+  "total" : 6,
   "items" : [ {
-    "uid" : "5e670972c0f152a4de87d0f2b3e74a23",
-    "name" : "test login",
+    "uid" : "e55fc8f1aa11ea86fe0c41545f6f22e4",
+    "name" : "Prueba en http://64.225.82.59:8080/departamentos",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 2
+      "total" : 4
     }
   }, {
     "uid" : "8583be2db880c93bf7969167846ded89",
     "name" : "test de respuesta y status",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "910dd97a836a6125cbf63a99eaf1f210",
+    "name" : "Prueba de api",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5e670972c0f152a4de87d0f2b3e74a23",
+    "name" : "test login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "32fe053912704eb3705017146d10794f",
+    "name" : "Prueba en http://64.225.82.59:8080/linea_productos",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "a7c9d9ff423e465836d4a35af58f0c11",
+    "name" : "Prueba en http://64.225.82.59:8080/marcas",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

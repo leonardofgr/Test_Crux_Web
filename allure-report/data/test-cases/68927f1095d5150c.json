@@ -1,0 +1,66 @@
+{
+  "uid" : "68927f1095d5150c",
+  "name" : "cy.request() - test request 200",
+  "fullName" : "test de respuesta y status.cy.request() - test request 200",
+  "historyId" : "9787766fa690ba14d43a516ca105ccff",
+  "time" : {
+    "start" : 1646248511802,
+    "stop" : 1646248512566,
+    "duration" : 764
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test de respuesta y status"
+  }, {
+    "name" : "testClass",
+    "value" : "test de respuesta y status"
+  }, {
+    "name" : "testMethod",
+    "value" : "cy.request() - test request 200"
+  }, {
+    "name" : "package",
+    "value" : "test de respuesta y status"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "65aa2e51a576c04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645818918561,
+        "stop" : 1645818919207,
+        "duration" : 646
+      }
+    }, {
+      "uid" : "cf103716166b5f2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645737834960,
+        "stop" : 1645737835619,
+        "duration" : 659
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68927f1095d5150c.json",
+  "parameterValues" : [ ]
+}

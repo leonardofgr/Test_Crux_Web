@@ -21,3 +21,14 @@ require('@shelex/cypress-allure-plugin');
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 require('cypress-xpath')
+
+/* este segmento de codigo se utiliza para omitir el error "resize" de cypress en algunas ocasiones , es solo una solucion parche
+Cypress.on('uncaught:exception', (err) => {
+    if (err.message.includes('ResizeObserver')) {
+      // returning false here prevents Cypress from
+      // failing the test
+      return false;
+    }
+    return true;
+  });
+  */

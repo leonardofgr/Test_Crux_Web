@@ -1,0 +1,48 @@
+{
+  "uid" : "39916ec5c093f87f",
+  "name" : "test de credenciales correctas y cierre de sesion",
+  "fullName" : "test login.test de credenciales correctas y cierre de sesion",
+  "historyId" : "7dba76768d7cfbf355aeeaaf3a535b4d",
+  "time" : {
+    "start" : 1646772420978,
+    "stop" : 1646772462159,
+    "duration" : 41181
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test login"
+  }, {
+    "name" : "testClass",
+    "value" : "test login"
+  }, {
+    "name" : "testMethod",
+    "value" : "test de credenciales correctas y cierre de sesion"
+  }, {
+    "name" : "package",
+    "value" : "test login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39916ec5c093f87f.json",
+  "parameterValues" : [ ]
+}

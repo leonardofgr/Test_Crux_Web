@@ -1,0 +1,48 @@
+{
+  "uid" : "75cfe598290eeed3",
+  "name" : "make an XHR request",
+  "fullName" : "Prueba de api.make an XHR request",
+  "historyId" : "b48d3656de9d3aac9619ca8a1ec49c47",
+  "time" : {
+    "start" : 1646770459387,
+    "stop" : 1646770460741,
+    "duration" : 1354
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Prueba de api"
+  }, {
+    "name" : "testClass",
+    "value" : "Prueba de api"
+  }, {
+    "name" : "testMethod",
+    "value" : "make an XHR request"
+  }, {
+    "name" : "package",
+    "value" : "Prueba de api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75cfe598290eeed3.json",
+  "parameterValues" : [ ]
+}

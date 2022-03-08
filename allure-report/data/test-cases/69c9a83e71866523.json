@@ -1,0 +1,62 @@
+{
+  "uid" : "69c9a83e71866523",
+  "name" : "cy.request() - test request 200",
+  "fullName" : "cy.request() - test request 200",
+  "historyId" : "241af950192685d95b155991f6ee48e2",
+  "time" : {
+    "start" : 1645818918522,
+    "stop" : 1645818919136,
+    "duration" : 614
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET 200 http://64.225.82.59:8080/login",
+      "time" : {
+        "start" : 1645818918570,
+        "stop" : 1645818919109,
+        "duration" : 539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test de respuesta y status"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69c9a83e71866523.json",
+  "parameterValues" : [ ]
+}

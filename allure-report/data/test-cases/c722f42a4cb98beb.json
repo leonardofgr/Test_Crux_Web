@@ -1,0 +1,399 @@
+{
+  "uid" : "c722f42a4cb98beb",
+  "name" : "test de credenciales correctas y cierre de sesion",
+  "fullName" : "test de credenciales correctas y cierre de sesion",
+  "historyId" : "13527f0eeecdff8a842363f8ea8f35c6",
+  "time" : {
+    "start" : 1645737782601,
+    "stop" : 1645737824232,
+    "duration" : 41631
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.\n    at Context.eval (http://64.225.82.59:8080/__cypress/tests?p=cypress/integration/LoginTest.js:118:48)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.\n    at Context.eval (http://64.225.82.59:8080/__cypress/tests?p=cypress/integration/LoginTest.js:118:48)",
+    "steps" : [ {
+      "name" : "visit http://64.225.82.59:8080/login",
+      "time" : {
+        "start" : 1645737782636,
+        "stop" : 1645737813612,
+        "duration" : 30976
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /sockjs-node/info?t=1645737812453",
+      "time" : {
+        "start" : 1645737813612,
+        "stop" : 1645737813612,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #name",
+      "time" : {
+        "start" : 1645737813612,
+        "stop" : 1645737813654,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type rhuilcaleo@helpcom.cl",
+      "time" : {
+        "start" : 1645737813654,
+        "stop" : 1645737814416,
+        "duration" : 762
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #password",
+      "time" : {
+        "start" : 1645737814418,
+        "stop" : 1645737814464,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type rigo",
+      "time" : {
+        "start" : 1645737814464,
+        "stop" : 1645737814727,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .btn",
+      "time" : {
+        "start" : 1645737814727,
+        "stop" : 1645737814843,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<button.btn.btn-primary.px-4.float-end>** to be **visible**",
+      "time" : {
+        "start" : 1645737814843,
+        "stop" : 1645737814843,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1645737814843,
+        "stop" : 1645737815001,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST http://64.225.82.59:9000/api/v1/login",
+      "time" : {
+        "start" : 1645737815001,
+        "stop" : 1645737815001,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .el-input__inner",
+      "time" : {
+        "start" : 1645737815001,
+        "stop" : 1645737816481,
+        "duration" : 1480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input.el-input__inner>** to be **visible**",
+      "time" : {
+        "start" : 1645737816480,
+        "stop" : 1645737816481,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1645737816481,
+        "stop" : 1645737816689,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .el-scrollbar__view > :nth-child(1)",
+      "time" : {
+        "start" : 1645737816689,
+        "stop" : 1645737816697,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1645737816697,
+        "stop" : 1645737816876,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .card-body > .row > div > .btn",
+      "time" : {
+        "start" : 1645737816876,
+        "stop" : 1645737816884,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1645737816884,
+        "stop" : 1645737817002,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST http://64.225.82.59:9000/api/v1/login",
+      "time" : {
+        "start" : 1645737817002,
+        "stop" : 1645737817002,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 3000",
+      "time" : {
+        "start" : 1645737817002,
+        "stop" : 1645737820008,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url http://64.225.82.59:8080/",
+      "time" : {
+        "start" : 1645737820007,
+        "stop" : 1645737820007,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .container-fluid > :nth-child(9)",
+      "time" : {
+        "start" : 1645737820008,
+        "stop" : 1645737824229,
+        "duration" : 4221
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **.container-fluid > :nth-child(9)** to be **visible**",
+      "time" : {
+        "start" : 1645737824229,
+        "stop" : 1645737824229,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : ".container-fluid > :nth-child(9)"
+      }, {
+        "name" : "expected",
+        "value" : "visible"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d877d240d8891d01",
+      "name" : "LoginTest.js:2022-02-24T21:23:44.055Z",
+      "source" : "d877d240d8891d01.png",
+      "type" : "image/png",
+      "size" : 149464
+    }, {
+      "uid" : "1fc823cda64ea77a",
+      "name" : "video recording",
+      "source" : "1fc823cda64ea77a.mp4",
+      "type" : "video/mp4",
+      "size" : 1529348
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c722f42a4cb98beb.json",
+  "parameterValues" : [ ]
+}

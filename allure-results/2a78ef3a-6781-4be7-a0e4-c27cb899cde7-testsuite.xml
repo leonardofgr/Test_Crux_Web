@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645818862595' stop='1645818907182'>
+    <name>test login</name>
+    <title>test login</title>
+    <test-cases>
+        <test-case start='1645818862595' status='failed' stop='1645818907091'>
+            <name>test de credenciales correctas y cierre de sesion</name>
+            <title>test de credenciales correctas y cierre de sesion</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `.container-fluid > :nth-child(9)`, but never found it.
+                    at Context.eval (http://64.225.82.59:8080/__cypress/tests?p=cypress/integration/LoginTest.js:118:48)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
